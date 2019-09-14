@@ -32,15 +32,8 @@
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-parent</artifactId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.1.8.RELEASE</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>hello.Application</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
             </plugin>
             <plugin>
                 <!-- Build an executable JAR -->
