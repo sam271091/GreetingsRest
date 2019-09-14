@@ -42,6 +42,15 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>GRRest</artifactId>
                 <version>0.1.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                            <mainClass>hello.Application</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
             </plugin>
         </plugins>
     </build>
