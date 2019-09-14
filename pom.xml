@@ -40,6 +40,13 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>GRRest</artifactId>
                 <version>0.1.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>hello.Application</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
             </plugin>
             <plugin>
                 <!-- Build an executable JAR -->
